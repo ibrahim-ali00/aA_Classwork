@@ -1,3 +1,4 @@
+require "byebug"
 #phase 2 time complexity= O(n) b/c iterating once through loop
 def my_min(list)
   i = 0
@@ -11,7 +12,9 @@ def my_min(list)
   min
 end
 
-def largest_contiguous_subsum(list)
+#Phase 1 : O(n^2)
+
+def largest_contiguous_subsum_one(list)
   sub_arr = []
   sum = 0
   list.each_with_index do |ele, i|
@@ -27,8 +30,21 @@ def largest_contiguous_subsum(list)
   sum
 end
 
+# O(n) time b/c interation done once
+def largest_contiguous_subsum_two(list)
+    largest_sum= list[0]
+    current_sum= 0
+    debugger
+    # list.inject {|acc, ele| acc + ele}
+    list.each do |ele|
+        current_sum= [ele, current_sum + ele].max
+        largest_sum = [largest_sum, current_sum].max
+    end
+    largest_sum
+end
+
 # list = [ 0, 3, 5, 4, -5, 10, 1, 90 ]
 # p my_min(list)  # =>  -5
 
-list = [5, 3, -7]
-p largest_contiguous_subsum(list)
+list = [2, 3, -6, 7, -6, 7]
+p largest_contiguous_subsum_two(list)
