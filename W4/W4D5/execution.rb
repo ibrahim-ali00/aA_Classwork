@@ -12,7 +12,7 @@ def my_min(list)
   min
 end
 
-#Phase 1 : O(n^2)
+#Phase 1 : O(n^3) because using .sum on sub_arr, which is n^2
 
 def largest_contiguous_subsum_one(list)
   sub_arr = []
@@ -32,15 +32,14 @@ end
 
 # O(n) time b/c interation done once
 def largest_contiguous_subsum_two(list)
-    largest_sum= list[0]
-    current_sum= 0
-    debugger
-    # list.inject {|acc, ele| acc + ele}
-    list.each do |ele|
-        current_sum= [ele, current_sum + ele].max
-        largest_sum = [largest_sum, current_sum].max
-    end
-    largest_sum
+  largest_sum = list[0]
+  current_sum = 0
+  # list.inject {|acc, ele| acc + ele}
+  list.each do |ele|
+    current_sum = [ele, current_sum + ele].max
+    largest_sum = [largest_sum, current_sum].max
+  end
+  largest_sum
 end
 
 # list = [ 0, 3, 5, 4, -5, 10, 1, 90 ]
