@@ -34,7 +34,11 @@ p third_anagram?("elvis", "lives")
 p third_anagram?("gizmo", "sally")
 
 def fourth_anagram?(str1, str2)
-  counter1 = Hash.new(0)
-  counter2 = Hash.new(0)
+  counter = Hash.new(0)
+  str1 << str2
+
+  
+
+
 end
 
