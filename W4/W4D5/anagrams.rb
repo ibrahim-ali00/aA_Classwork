@@ -11,16 +11,16 @@ end
 
 # possibly n^2 because include? is a loop
 def second_anagram?(str1, str2)
-  
   str1.each_char do |char|
     # str2.each_char.with_index do |char2, i|
-    str2.slice!(str2.index(char)) if str2.include?(char)  
+    str2.slice!(str2.index(char)) if str2.include?(char)
   end
-  
+
   return str2.empty?
 end
-#iterate over 1st string 
-#find index 
+
+#iterate over 1st string
+#find index
 
 # p second_anagram?("elvis", "lives")
 # p second_anagram?("gizmo", "sally")
@@ -30,15 +30,17 @@ def third_anagram?(str1, str2)
   str1.split("").sort.join("") == str2.split("").sort.join("")
 end
 
-p third_anagram?("elvis", "lives")
-p third_anagram?("gizmo", "sally")
+# p third_anagram?("elvis", "lives")
+# p third_anagram?("gizmo", "sally")
 
+# O(n) complexity with only one hash
 def fourth_anagram?(str1, str2)
   counter = Hash.new(0)
-  str1 << str2
-
-  
-
-
+  (str1 << str2).each_char do |k, v|
+    counter[k] += 1
+  end
+  !counter.values.any? { |ele| ele == 1 }
 end
 
+p fourth_anagram?("elvis", "lives")
+p fourth_anagram?("gizmo", "sally")
