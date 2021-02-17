@@ -4,6 +4,19 @@ body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
+  width: 900px;
+  margin: 0 auto;
+}
+
+aside {
+  width: 180px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
 }
 
 h1 {
@@ -13,6 +26,16 @@ h1 {
 h2 {
   font-size: 32px;
 }
+
+nav {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 20px;
+}
+
 
 /* This selector selects ALL anchor tag children of ALL list elements that
 are children of an Unordered Lsit element */
@@ -29,18 +52,44 @@ header > img {
 
 /* Selects all elements with the class attribute "ingredients-list" */
 .ingredients-list {
-
+  margin: 15px 0px;
   /* The list style property is shorthand for multiple list-style properties*/
   list-style: square inside;
+}
+
+#directions {
+  margin: 15px 0px;
 }
 
 ol {
   list-style: upper-roman inside;
 }
 
+#reviews {
+  display: inline-block;
+}
+
+select {
+  margin: 0 15px;
+  width: 180px;
+}
+
+textarea {
+  width: 180px;
+}
+
+/* input {
+    width: 180px;
+  height: 50px;
+} */
+
 .user_review h4 {
   font-size: 18px;
   font-weight: bold;
+}
+
+label {
+  display: block;
 }
 
 input[type="radio"] {
@@ -72,3 +121,7 @@ h2 + .user_review {
     border-top: 1px solid black;
 }
 
+input[type="text"], select {
+  
+  width: 175px;
+}
