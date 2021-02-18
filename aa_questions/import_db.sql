@@ -1,6 +1,10 @@
-PRAGMA foreign_keys = ON;
-
+DROP TABLE IF EXISTS question_follows;
+DROP TABLE IF EXISTS question_likes;
+DROP TABLE IF EXISTS replies;
+DROP TABLE IF EXISTS questions;
 DROP TABLE IF EXISTS users;
+
+PRAGMA foreign_keys = ON;
 
 CREATE TABLE users (
     id integer PRIMARY KEY,
@@ -8,7 +12,6 @@ CREATE TABLE users (
     lname TEXT NOT NULL
 );
 
-DROP TABLE IF EXISTS questions;
 CREATE TABLE questions (
     id integer PRIMARY KEY,
     title TEXT NOT NULL,
@@ -17,30 +20,33 @@ CREATE TABLE questions (
     FOREIGN KEY (user_id) references users(id)
 );
 
-DROP TABLE IF EXISTS question_follows;
+-- DROP TABLE IF EXISTS users;
+
+
 
 CREATE TABLE question_follows (
     id INTEGER PRIMARY KEY,
     user_id INTEGER,
-    question_id INTEGER
-    --FK for userid and question id
-);
+    question_id INTEGER,
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (question_id) REFERENCES questions(id)
+    );
 
-DROP TABLE IF EXISTS replies;
+
 
 CREATE TABLE replies (
     id INTEGER PRIMARY KEY,
     subject TEXT NOT NULL,
-    parent_id INTEGER,
     question_id INTEGER,
     user_id INTEGER,
+    parent_id INTEGER,
     body TEXT NOT NULL,
     FOREIGN KEY (question_id) REFERENCES questions(id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (parent_id) REFERENCES replies(id)
 );
 
-DROP TABLE IF EXISTS question_likes;
+
 
 CREATE TABLE question_likes (
     id INTEGER PRIMARY KEY,
@@ -57,9 +63,29 @@ VALUES
 ('Jane', 'Doe');
 
 INSERT INTO
-questions (title, body)
+questions (title, body, user_id)
 VALUES
-('Sequel', 'How to create tables'),
-('Ruby', 'How to access tables');
+('Sequel', 'How to create tables', (SELECT id FROM users WHERE fname = 'John')),
+('Ruby', 'How to access tables', (SELECT id FROM users WHERE fname = 'Jane'));
 
+
+INSERT INTO
+question_follows (user_id, question_id)
+VALUES
+((SELECT id FROM users WHERE fname = 'John'), (SELECT id FROM questions WHERE id = 1)),
+((SELECT id FROM users WHERE fname = 'Jane'), (SELECT id FROM questions WHERE id = 2));
+
+INSERT INTO
+replies (subject, body, question_id, user_id, parent_id)
+VALUES
+('Sequel reply', 'google it', (SELECT id FROM questions WHERE id = 1),
+(SELECT id FROM users WHERE id = 1), (SELECT id FROM users WHERE fname = 'John')),
+('Ruby reply', 'look at week 3', (SELECT id FROM questions WHERE id = 2),
+(SELECT id FROM users WHERE id = 2), (SELECT id FROM users WHERE fname = 'Jane'));
+
+INSERT INTO
+question_likes (user_id, question_id)
+VALUES
+((SELECT id FROM users WHERE fname = 'John'), (SELECT id FROM questions WHERE id = 1)),
+((SELECT id FROM users WHERE fname = 'Jane'), (SELECT id FROM questions WHERE id = 2));
 --make sample data for other tables
