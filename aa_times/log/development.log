@@ -353,3 +353,1079 @@ Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac0
 Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2021-03-04 10:52:52 -0800
 Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for 127.0.0.1 at 2021-03-04 10:52:52 -0800
 Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for 127.0.0.1 at 2021-03-04 10:52:52 -0800
+Started GET "/" for ::1 at 2021-03-04 10:57:16 -0800
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/mattheweis/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (233.3ms)
+Completed 200 OK in 3453ms (Views: 3408.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2021-03-04 10:57:20 -0800
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2021-03-04 10:57:20 -0800
+Started GET "/assets/application.self-38d2e95989bb614e96fe54673b72c26ce55065b8489c9365e320a69740e8c68d.css?body=1" for ::1 at 2021-03-04 10:57:20 -0800
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2021-03-04 10:57:20 -0800
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2021-03-04 10:57:20 -0800
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2021-03-04 10:57:20 -0800
+Started GET "/" for ::1 at 2021-03-04 10:59:08 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (220.6ms)
+Completed 200 OK in 1297ms (Views: 1253.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3d8cb5f3e65bb387f66f2daf023da5da778cbd8bb302e682e53d7ad4c5f6f0bb.css?body=1" for ::1 at 2021-03-04 10:59:10 -0800
+Started GET "/" for ::1 at 2021-03-04 10:59:14 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (240.7ms)
+Completed 200 OK in 1336ms (Views: 1290.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ca6cfc0024d0cd873340879b2d93da87cad1c9c8927a63459859c20a6ea4912d.css?body=1" for ::1 at 2021-03-04 10:59:16 -0800
+Started GET "/" for ::1 at 2021-03-04 10:59:21 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (3.8ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (245.9ms)
+Completed 200 OK in 666ms (Views: 623.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:09:39 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (227.0ms)
+Completed 200 OK in 1346ms (Views: 1302.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:14:56 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (225.3ms)
+Completed 200 OK in 1303ms (Views: 1259.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cf939376b6e27572cc6369b868210a10057dafcc9172423064273de69b9671ec.css?body=1" for ::1 at 2021-03-04 11:14:57 -0800
+Started GET "/" for ::1 at 2021-03-04 11:15:07 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (241.7ms)
+Completed 200 OK in 1366ms (Views: 1321.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-86cef6b17cbe12b428fab862987d88b67ca78ab6bb6b22c5c89dd773f3123cd1.css?body=1" for ::1 at 2021-03-04 11:15:09 -0800
+Started GET "/" for ::1 at 2021-03-04 11:15:28 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (248.5ms)
+Completed 200 OK in 1354ms (Views: 1309.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c18785895724345824dd4c9cadb602c45c7c6a8c5326e6132f539f5242087019.css?body=1" for ::1 at 2021-03-04 11:15:29 -0800
+Started GET "/" for ::1 at 2021-03-04 11:15:51 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (241.4ms)
+Completed 200 OK in 1335ms (Views: 1291.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d995195900e95ff101a70cae472b679058dd0e4f91946c638888cdf70c4d55f8.css?body=1" for ::1 at 2021-03-04 11:15:53 -0800
+Started GET "/" for ::1 at 2021-03-04 11:16:28 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (226.1ms)
+Completed 200 OK in 1307ms (Views: 1263.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ff3f3f6a94e3a95e8ed991d36eba3745dfb705450f52f1fb84e3b1ba64ce9e05.css?body=1" for ::1 at 2021-03-04 11:16:29 -0800
+Started GET "/" for ::1 at 2021-03-04 11:16:43 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (239.6ms)
+Completed 200 OK in 1352ms (Views: 1302.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a1d7ef8beb744ee5af45fbe290540e48700d1735a6fe9831908bb61f6a985886.css?body=1" for ::1 at 2021-03-04 11:16:45 -0800
+Started GET "/" for ::1 at 2021-03-04 11:16:52 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (225.6ms)
+Completed 200 OK in 1292ms (Views: 1249.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fc3ee12d0065df36fe758c299aa6f5e2a128ce5dd61f6a58fc83dab608f8260f.css?body=1" for ::1 at 2021-03-04 11:16:54 -0800
+Started GET "/" for ::1 at 2021-03-04 11:17:37 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (258.8ms)
+Completed 200 OK in 1380ms (Views: 1336.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3ff7944c125a8d0092c28db11de3ab1877cc20d2f4cf03ad260f222459bd44c8.css?body=1" for ::1 at 2021-03-04 11:17:39 -0800
+Started GET "/" for ::1 at 2021-03-04 11:17:46 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (246.4ms)
+Completed 200 OK in 1340ms (Views: 1295.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7440eb06dedb1f4c0dbd3c63a450af4ac132d7892d15b4cf303db20a611c3e86.css?body=1" for ::1 at 2021-03-04 11:17:48 -0800
+Started GET "/" for ::1 at 2021-03-04 11:17:56 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (251.6ms)
+Completed 200 OK in 1375ms (Views: 1330.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7c972b8a9c6fc196ae031ee41a1f81238e1cd50bcb396c5aea44cb59cbd1b8bd.css?body=1" for ::1 at 2021-03-04 11:17:58 -0800
+Started GET "/" for ::1 at 2021-03-04 11:19:10 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (232.5ms)
+Completed 200 OK in 1406ms (Views: 1360.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7b06792e99c50ec297c55384fb3e409eaf5aaf47f65a0f9c2c3821417f0e1d2a.css?body=1" for ::1 at 2021-03-04 11:19:12 -0800
+Started GET "/" for ::1 at 2021-03-04 11:19:35 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (236.1ms)
+Completed 200 OK in 1365ms (Views: 1320.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0ec26378ba476a90396a8b217e1224908b75518326fd1fd2d8cf25c69bbf1670.css?body=1" for ::1 at 2021-03-04 11:19:36 -0800
+Started GET "/" for ::1 at 2021-03-04 11:19:45 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (1.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (237.8ms)
+Completed 200 OK in 1328ms (Views: 1284.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1e0dac5d513e07d065cf789a43f49915c9b7c5b694d2caec54f8b8804499dd63.css?body=1" for ::1 at 2021-03-04 11:19:46 -0800
+Started GET "/" for ::1 at 2021-03-04 11:19:56 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (229.6ms)
+Completed 200 OK in 1327ms (Views: 1281.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2595832bc718c0d9986ec570ed2e2c05985ba1f2e6d54637f2894599ab4fa6a2.css?body=1" for ::1 at 2021-03-04 11:19:57 -0800
+Started GET "/" for ::1 at 2021-03-04 11:20:02 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (232.4ms)
+Completed 200 OK in 1319ms (Views: 1272.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e492fbc2070dc64f06630a0728ffee161661fbb23ab8ff56256d0154c7d683d8.css?body=1" for ::1 at 2021-03-04 11:20:04 -0800
+Started GET "/" for ::1 at 2021-03-04 11:20:30 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (237.0ms)
+Completed 200 OK in 1324ms (Views: 1277.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b0c15828ecb7f402af57928953411b7f5b159d00f4b752f2d56a4c4a99d60dbe.css?body=1" for ::1 at 2021-03-04 11:20:31 -0800
+Started GET "/" for ::1 at 2021-03-04 11:20:44 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (239.9ms)
+Completed 200 OK in 1312ms (Views: 1268.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dcdf1030dd4a27fa5af0a1af8b3753b581579ce3a7c39ca98e56b8cdfc8684ac.css?body=1" for ::1 at 2021-03-04 11:20:46 -0800
+Started GET "/" for ::1 at 2021-03-04 11:22:15 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (244.8ms)
+Completed 200 OK in 1315ms (Views: 1261.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7cf8e27a49e1368af732b6f5be66d861e6d2efbdb82751a4a4dff4edf7cb8568.css?body=1" for ::1 at 2021-03-04 11:22:17 -0800
+Started GET "/" for ::1 at 2021-03-04 11:22:27 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (237.0ms)
+Completed 200 OK in 1359ms (Views: 1316.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9c12cdaea98e05168c6f0de1a6396a06e8e0c1d0b59fe7737c72313bed1a2a51.css?body=1" for ::1 at 2021-03-04 11:22:29 -0800
+Started GET "/" for ::1 at 2021-03-04 11:22:37 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (240.0ms)
+Completed 200 OK in 1312ms (Views: 1266.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-19349d807d88c5c9333a7451c92d99e56249cd55abb8beec5742037612aab83a.css?body=1" for ::1 at 2021-03-04 11:22:38 -0800
+Started GET "/" for ::1 at 2021-03-04 11:22:50 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (245.8ms)
+Completed 200 OK in 671ms (Views: 624.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:23:16 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (235.6ms)
+Completed 200 OK in 1351ms (Views: 1302.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-49d63642424e8af9ae656856de5e4475c4daf7ebc50018886109fde619543dbe.css?body=1" for ::1 at 2021-03-04 11:23:17 -0800
+Started GET "/" for ::1 at 2021-03-04 11:23:38 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (239.2ms)
+Completed 200 OK in 1329ms (Views: 1284.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-00fdbe6fa1e52557213688feb9c4ae8aee7ae9d3eabbee74eae6c2806812c55b.css?body=1" for ::1 at 2021-03-04 11:23:39 -0800
+Started GET "/" for ::1 at 2021-03-04 11:24:00 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (245.8ms)
+Completed 200 OK in 1379ms (Views: 1334.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c8173262adbbf06122cb392a085df038b00e81e1cb88bb3f2a6b3b216912a70f.css?body=1" for ::1 at 2021-03-04 11:24:01 -0800
+Started GET "/" for ::1 at 2021-03-04 11:24:05 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (243.0ms)
+Completed 200 OK in 622ms (Views: 573.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:24:11 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (234.8ms)
+Completed 200 OK in 1348ms (Views: 1303.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cdb858c03c33dd7959f16b4fb0e0b76351bae84cf976486aad6e81fdd0e98f93.css?body=1" for ::1 at 2021-03-04 11:24:12 -0800
+Started GET "/" for ::1 at 2021-03-04 11:24:25 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (240.7ms)
+Completed 200 OK in 1419ms (Views: 1371.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-12400d290c714c49665f4a206e45629dd10312f0f5035332fa62626b6a1c1a60.css?body=1" for ::1 at 2021-03-04 11:24:26 -0800
+Started GET "/" for ::1 at 2021-03-04 11:24:40 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (1.0ms)
+  Rendered static_pages/index.html.erb within layouts/application (248.0ms)
+Completed 200 OK in 1377ms (Views: 1328.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c974c628996ea664ae434d95af19e416d6491e507070ebfefa0ff94dd7cb5e19.css?body=1" for ::1 at 2021-03-04 11:24:41 -0800
+Started GET "/" for ::1 at 2021-03-04 11:25:26 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (241.5ms)
+Completed 200 OK in 625ms (Views: 577.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:25:33 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (240.5ms)
+Completed 200 OK in 626ms (Views: 580.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:26:13 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (231.2ms)
+Completed 200 OK in 1348ms (Views: 1299.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7de59a4c7ac4b3e9decf08192026c5b33e2e4b7d7e02d0ace5bdf82e47674f76.css?body=1" for ::1 at 2021-03-04 11:26:14 -0800
+Started GET "/" for ::1 at 2021-03-04 11:26:26 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (261.6ms)
+Completed 200 OK in 1345ms (Views: 1296.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7ac7799490449ff6f215bfc40e6b4b564b13985f11cb84e37d39e20edb3f96fc.css?body=1" for ::1 at 2021-03-04 11:26:27 -0800
+Started GET "/" for ::1 at 2021-03-04 11:39:41 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (220.1ms)
+Completed 200 OK in 601ms (Views: 556.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:40:12 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (227.1ms)
+Completed 500 Internal Server Error in 691ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "text-align": expected ";", was ": center;":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___440446677061551867_70084449467260'
+
+Started POST "/__better_errors/d3e14029029eca05/variables" for ::1 at 2021-03-04 11:40:13 -0800
+Started GET "/" for ::1 at 2021-03-04 11:40:23 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (254.2ms)
+Completed 200 OK in 1367ms (Views: 1323.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-508642ec743ce305fa96583cc880a880965348cd54a2ff53559d1c6ad1458988.css?body=1" for ::1 at 2021-03-04 11:40:25 -0800
+Started GET "/" for ::1 at 2021-03-04 11:41:04 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (241.6ms)
+Completed 200 OK in 1325ms (Views: 1278.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3501ccf11de4854f4b18f81f1a4a9babc1adf5dac58281ab8b16afa64d96580e.css?body=1" for ::1 at 2021-03-04 11:41:05 -0800
+Started GET "/" for ::1 at 2021-03-04 11:41:20 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (244.3ms)
+Completed 200 OK in 1333ms (Views: 1287.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b3fe1970ce9890fedeaf970d4a21dbc5dbc419a35eace71fc99489be70835820.css?body=1" for ::1 at 2021-03-04 11:41:22 -0800
+Started GET "/" for ::1 at 2021-03-04 11:41:26 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (238.2ms)
+Completed 200 OK in 1367ms (Views: 1322.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-700bf428388e24c3c592287014c0cbbb6954fc04b7296325db30090ca5fa0785.css?body=1" for ::1 at 2021-03-04 11:41:28 -0800
+Started GET "/" for ::1 at 2021-03-04 11:41:40 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (238.3ms)
+Completed 200 OK in 1311ms (Views: 1266.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bcd99d181884cee9a8f80f00c99ecd2a4b6595ddc7de67560db5fb571abc13c1.css?body=1" for ::1 at 2021-03-04 11:41:42 -0800
+Started GET "/" for ::1 at 2021-03-04 11:41:48 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (247.2ms)
+Completed 200 OK in 1336ms (Views: 1292.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eb41c3f2746af31ee22e4924e164a72310d052a860512217b5e9f1069fc60953.css?body=1" for ::1 at 2021-03-04 11:41:49 -0800
+Started GET "/" for ::1 at 2021-03-04 11:42:03 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (242.7ms)
+Completed 200 OK in 1323ms (Views: 1280.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-058cef0f8d2e7d146e67fff426ce668bec20d493ad02b5f451e7241bdf376818.css?body=1" for ::1 at 2021-03-04 11:42:05 -0800
+Started GET "/" for ::1 at 2021-03-04 11:42:18 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (240.9ms)
+Completed 200 OK in 1330ms (Views: 1284.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e9ddfbd824b297d94e37487eab7701a5a5c5105b0926bfb8f97c133d85b6662c.css?body=1" for ::1 at 2021-03-04 11:42:20 -0800
+Started GET "/" for ::1 at 2021-03-04 11:42:29 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (244.3ms)
+Completed 200 OK in 639ms (Views: 596.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:43:18 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (225.3ms)
+Completed 200 OK in 1313ms (Views: 1266.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b79e490b26039a1aae602d13c9a86dc02f9eb95d706182f5cddb3270e93dc919.css?body=1" for ::1 at 2021-03-04 11:43:20 -0800
+Started GET "/" for ::1 at 2021-03-04 11:43:40 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (242.8ms)
+Completed 200 OK in 1305ms (Views: 1261.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8ab28088ad036c05c2a847a1612929e452a04666ed7db6262f770a78db5d6f31.css?body=1" for ::1 at 2021-03-04 11:43:42 -0800
+Started GET "/" for ::1 at 2021-03-04 11:43:46 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (239.1ms)
+Completed 200 OK in 1345ms (Views: 1301.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe27df9fcd0df6721447d406c6b24c7959b0461979dc86bb387f8894bb075359.css?body=1" for ::1 at 2021-03-04 11:43:48 -0800
+Started GET "/" for ::1 at 2021-03-04 11:43:52 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (220.4ms)
+Completed 200 OK in 1285ms (Views: 1241.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e67b62cd0f06a8612639566c596e6c0b18d043f6c4fb5c4214e4093d1dbf5da1.css?body=1" for ::1 at 2021-03-04 11:43:54 -0800
+Started GET "/" for ::1 at 2021-03-04 11:44:09 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (229.7ms)
+Completed 200 OK in 1333ms (Views: 1289.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ca726cf12776f11d8b6a5d2634c07013e2c4af62c2ea27f86df5c26324f007d1.css?body=1" for ::1 at 2021-03-04 11:44:11 -0800
+Started GET "/" for ::1 at 2021-03-04 11:44:13 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (220.3ms)
+Completed 200 OK in 590ms (Views: 545.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:44:26 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (223.9ms)
+Completed 200 OK in 1282ms (Views: 1238.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-59eb37e3ed3bdf75e749494056d1539c80f201637ca04c3ed1adfad4bdff7f87.css?body=1" for ::1 at 2021-03-04 11:44:27 -0800
+Started GET "/" for ::1 at 2021-03-04 11:44:37 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (240.8ms)
+Completed 200 OK in 1331ms (Views: 1287.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-047ea2d28238068cf7d5b8f6f94b566aeb2cb88b6b9eb4fb0b40beecac247105.css?body=1" for ::1 at 2021-03-04 11:44:39 -0800
+Started GET "/" for ::1 at 2021-03-04 11:44:46 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (259.4ms)
+Completed 200 OK in 659ms (Views: 614.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:46:24 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (233.0ms)
+Completed 200 OK in 1331ms (Views: 1287.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6f233018d9ad02b7eef98b4fc013aec2510e879d0c28e63fbdec21a5337eaa03.css?body=1" for ::1 at 2021-03-04 11:46:26 -0800
+Started GET "/" for ::1 at 2021-03-04 11:46:58 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (244.2ms)
+Completed 200 OK in 1348ms (Views: 1301.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-99f2cdfd0a6d6543689932507bcc1b5a5be6f8c375dd5e190696902dbce2d7b8.css?body=1" for ::1 at 2021-03-04 11:46:59 -0800
+Started GET "/" for ::1 at 2021-03-04 11:47:13 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (234.8ms)
+Completed 200 OK in 1375ms (Views: 1328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fb6a336fd030801403fb1f2d9f8e66bae616bd8146ef92b4c38c47126815fc41.css?body=1" for ::1 at 2021-03-04 11:47:14 -0800
+Started GET "/" for ::1 at 2021-03-04 11:47:22 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (250.1ms)
+Completed 200 OK in 1374ms (Views: 1327.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b59196e04ec8c83bb01939fceb8cd5a6c6515a6e3b14ff005541045d53d660d3.css?body=1" for ::1 at 2021-03-04 11:47:23 -0800
+Started GET "/" for ::1 at 2021-03-04 11:47:31 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (247.3ms)
+Completed 200 OK in 1344ms (Views: 1299.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:47:40 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (267.6ms)
+Completed 200 OK in 676ms (Views: 631.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:47:46 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (234.7ms)
+Completed 200 OK in 653ms (Views: 604.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-04 11:48:26 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (240.2ms)
+Completed 200 OK in 1364ms (Views: 1311.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ddc9f4655d7c093d6c08f47e6683947dda9a7f01eaf366aae38fa50fe0159bb2.css?body=1" for ::1 at 2021-03-04 11:48:27 -0800
+Started GET "/" for ::1 at 2021-03-04 11:49:01 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (247.5ms)
+Completed 200 OK in 1335ms (Views: 1291.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-95759bef67ef2b1fd44443aa11d5a049639222934f53ea8324ec5d1d354ae596.css?body=1" for ::1 at 2021-03-04 11:49:03 -0800
+Started GET "/" for ::1 at 2021-03-04 11:49:48 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (259.8ms)
+Completed 200 OK in 1375ms (Views: 1330.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-954faf1a8da2d4006bacc1488a66661134734cd8bcc45b40ba37db3c41cc87e6.css?body=1" for ::1 at 2021-03-04 11:49:49 -0800
+Started GET "/" for ::1 at 2021-03-04 11:49:54 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (231.6ms)
+Completed 200 OK in 1322ms (Views: 1277.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b0b7a35962e3e785ad70c2b393870327b9c4bfd1c952ba1ee8db9db972b0fd66.css?body=1" for ::1 at 2021-03-04 11:49:56 -0800
+Started GET "/" for ::1 at 2021-03-04 11:50:00 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (246.0ms)
+Completed 200 OK in 1348ms (Views: 1299.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d8742869b40ea15133c575a9170ec520c527b74b5f766e7dd7cee3e34bb3207c.css?body=1" for ::1 at 2021-03-04 11:50:02 -0800
+Started GET "/" for ::1 at 2021-03-04 11:50:07 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (239.9ms)
+Completed 200 OK in 1400ms (Views: 1354.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-19ef36cf410cf4c477f97296e366109c0bfd678ff16833217b64d26160863bcd.css?body=1" for ::1 at 2021-03-04 11:50:09 -0800
+Started GET "/" for ::1 at 2021-03-04 11:50:24 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (241.2ms)
+Completed 200 OK in 1340ms (Views: 1295.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-599e216ab41e0fb4a21e36536f8e4b68e8d0e8cc9967d4466650b23a62b1b34a.css?body=1" for ::1 at 2021-03-04 11:50:25 -0800
+Started GET "/" for ::1 at 2021-03-04 11:50:36 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (263.4ms)
+Completed 200 OK in 1519ms (Views: 1471.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c7e48b37efaf3ec437bedea6157f274aa821379dabb1919f40fbef22822ff778.css?body=1" for ::1 at 2021-03-04 11:50:37 -0800
+Started GET "/" for ::1 at 2021-03-04 11:51:03 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (253.3ms)
+Completed 200 OK in 1348ms (Views: 1303.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fde3cb2c4bbeb379036b4f2034fbf5cf423822f6c348db1425d6900987a0a2d8.css?body=1" for ::1 at 2021-03-04 11:51:05 -0800
+Started GET "/" for ::1 at 2021-03-04 11:51:47 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (229.9ms)
+Completed 200 OK in 1350ms (Views: 1304.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2e6338a8cdddd7419d96599dd1f76ad3f5ca6d8b428c578bd5a7e6336758a017.css?body=1" for ::1 at 2021-03-04 11:51:48 -0800
+Started GET "/" for ::1 at 2021-03-04 11:51:54 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (243.6ms)
+Completed 200 OK in 1345ms (Views: 1302.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8ea81b6ba3ef8f2976b41e8bc0063457968c0a4c9a91c7024d747c56bad12eb6.css?body=1" for ::1 at 2021-03-04 11:51:55 -0800
+Started GET "/" for ::1 at 2021-03-04 11:52:07 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (244.4ms)
+Completed 200 OK in 1363ms (Views: 1319.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f1fdb03a640c8f2ee1769ce86cbde94c100533385a278acc16a97a035d46f2a2.css?body=1" for ::1 at 2021-03-04 11:52:09 -0800
+Started GET "/" for ::1 at 2021-03-04 11:52:17 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (236.2ms)
+Completed 200 OK in 1418ms (Views: 1369.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e66548532647888fdf2b77520549283b30970d40d8c07cf01903f28bba444be7.css?body=1" for ::1 at 2021-03-04 11:52:18 -0800
+Started GET "/" for ::1 at 2021-03-04 11:52:24 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (249.2ms)
+Completed 200 OK in 1353ms (Views: 1308.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-320b1597fd3bc739f753c9537b81b4b0a96cb8c2fcda5ef4f7202381785fca13.css?body=1" for ::1 at 2021-03-04 11:52:25 -0800
+Started GET "/" for ::1 at 2021-03-04 11:52:35 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (246.3ms)
+Completed 200 OK in 1389ms (Views: 1344.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b7e34d187efc9cd0a4e8039a2ec886f95bf840c24b16b3f487232efc5b361a61.css?body=1" for ::1 at 2021-03-04 11:52:37 -0800
+Started GET "/" for ::1 at 2021-03-04 11:52:41 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (229.2ms)
+Completed 200 OK in 1326ms (Views: 1282.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e7dd1527f2db73baf7ca5ed668fbdea2a459ec8c46579924b423d4509e1d583f.css?body=1" for ::1 at 2021-03-04 11:52:43 -0800
+Started GET "/" for ::1 at 2021-03-04 11:52:51 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (238.0ms)
+Completed 200 OK in 1343ms (Views: 1297.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-585fe2161d91023bcbbb50bcc47ebf192d1d086aa70d98bebf915047ebb466b7.css?body=1" for ::1 at 2021-03-04 11:52:52 -0800
+Started GET "/" for ::1 at 2021-03-04 11:54:01 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (1.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (239.0ms)
+Completed 200 OK in 1339ms (Views: 1294.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0cc26075cb846a3aa332cd3c5e9718df7798ce92faa9f9718b672bba24b72065.css?body=1" for ::1 at 2021-03-04 11:54:03 -0800
+Started GET "/" for ::1 at 2021-03-04 11:55:16 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (245.8ms)
+Completed 200 OK in 1421ms (Views: 1372.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a1fb33dc72c0cb3ed6ba84ab5e300146a6a70148adb36addfae95f45194ac446.css?body=1" for ::1 at 2021-03-04 11:55:17 -0800
