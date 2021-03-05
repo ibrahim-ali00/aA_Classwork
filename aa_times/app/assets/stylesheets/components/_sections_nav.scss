@@ -1,0 +1,11 @@
+.sections_nav {
+    display: flex;
+}
+
+
+@media all and (max-width: 1000px) {
+  .sections-nav {
+    width: 100%;
+    display: block;
+  }
+}
