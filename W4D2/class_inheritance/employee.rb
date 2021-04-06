@@ -10,8 +10,8 @@ class Employee
         salary * multiplier
     end
 
-    def add_employees(employee)
-        @boss.employees << employee
+    def add_employees
+        @boss.employees << self
     end
 
 end
@@ -21,8 +21,8 @@ class Manager < Employee
 
     attr_reader :employees
     def initialize(name, title, salary, boss)
-        super
         @employees = [] # => [bob, susan, dennis, ibrahim] 
+        super
     end
 
     def bonus(multiplier)
@@ -34,8 +34,13 @@ class Manager < Employee
         until queue.empty?
             first = queue.shift 
             sum += first.salary 
-            first.employees.each do |ele|
-                if ele.is_a?(Manager)
+            # first.employees.each do |ele|
+            #     if ele.is_a?(Manager)
+            #         queue << ele
+            #     end
+            # first.employees.each { |ele| queue << ele } if first.is_a?(Manager)
+            if first.is_?(Manager)
+                first.employees.each do |ele|
                     queue << ele
                 end
             end
@@ -56,9 +61,9 @@ ned = Manager.new('ned', 'Founder', 1000000, nil)
 darren = Manager.new('darren', 'TA Manager', 78000, ned)
 shawna = Employee.new('shawna', 'TA', 12000, darren)
 david = Employee.new('david', 'TA', 10000, darren)
-darren.add_employees(david)
-darren.add_employees(shawna)
-ned.add_employees(darren)
+david.add_employees
+shawna.add_employees
+darren.add_employees
 
 p ned.bonus(5) # => 500_000
 p darren.bonus(4) # => 88_000
