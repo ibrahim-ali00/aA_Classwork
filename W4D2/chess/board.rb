@@ -42,3 +42,5 @@ piece = Piece.new
 board[[0, 0]] = piece
 board.move_piece([0, 0], [1, 1])
 board.print_board
+
+# add in_check 
