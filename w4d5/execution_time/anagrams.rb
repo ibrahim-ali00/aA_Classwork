@@ -56,7 +56,7 @@ str2 = "enumeration"
 # p third_anagram?("gizmo", "sally")    #=> false
 
 Benchmark.bm do |x|
-  x.report { first_anagram?(str1, str2) }
+  # x.report { first_anagram?(str1, str2) }
   x.report { second_anagram?(str1, str2) }
   x.report { third_anagram?(str1, str2) }
   x.report { fourth_anagram?(str1, str2) }
