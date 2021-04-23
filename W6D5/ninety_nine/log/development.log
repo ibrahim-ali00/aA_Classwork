@@ -66,3 +66,238 @@ Migrating to CreateCats (20210423191220)
   ↳ bin/rails:9
   [1m[35m (20.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /home/laptop/.rbenv/versions/2.5.1/bin/annotate:23
+Started GET "/" for ::1 at 2021-04-23 15:03:37 -0700
+  [1m[35m (8.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ying/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ying/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ying/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.5/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 39ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats" for ::1 at 2021-04-23 15:03:41 -0700
+Processing by CatsController#index as HTML
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::MissingTemplate - Missing template cats/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/ying/Desktop/aA_Classwork/W6D5/ninety_nine/app/views":
+  app/controllers/cats_controller.rb:4:in `index'
+
+Started POST "/__better_errors/710361aff434ec7c/variables" for ::1 at 2021-04-23 15:03:41 -0700
+  [1m[36mCat Load (2.3ms)[0m  [1m[34mSELECT  "cats".* FROM "cats" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /Users/ying/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Started GET "/cats/new" for ::1 at 2021-04-23 15:03:56 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 948ms (Views: 931.1ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:04:13 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:11:05 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:11:14 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:11:37 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:12:00 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:19:16 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected >>
+..._append='" ? "selected" : ""%>> '.freeze;@output_buffer.appe...
+...                             ^~
+/Users/ying/Desktop/aA_Classwork/W6D5/ninety_nine/app/views/cats/new.html.erb:24: unknown regexp options - fr
+/Users/ying/Desktop/aA_Classwork/W6D5/ninety_nine/app/views/cats/new.html.erb:29: unterminated string meets end of file
+          end
+             ^
+/Users/ying/Desktop/aA_Classwork/W6D5/ninety_nine/app/views/cats/new.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^:
+  app/views/cats/new.html.erb:22:in `'
+  app/controllers/cats_controller.rb:14:in `new'
+
+Started POST "/__better_errors/92737a08d0e2bd6e/variables" for ::1 at 2021-04-23 15:19:16 -0700
+Started GET "/cats/new" for ::1 at 2021-04-23 15:22:53 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - uninitialized constant Cat::COLOR:
+  app/views/cats/new.html.erb:21:in `_app_views_cats_new_html_erb___2757880898618634320_70193325984880'
+  app/controllers/cats_controller.rb:14:in `new'
+
+Started POST "/__better_errors/3e1de6fadb890b3b/variables" for ::1 at 2021-04-23 15:22:53 -0700
+Started GET "/cats/new" for ::1 at 2021-04-23 15:22:55 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - uninitialized constant Cat::COLOR:
+  app/views/cats/new.html.erb:21:in `_app_views_cats_new_html_erb___2757880898618634320_70193289870400'
+  app/controllers/cats_controller.rb:14:in `new'
+
+Started POST "/__better_errors/efbc97ddf2db45fd/variables" for ::1 at 2021-04-23 15:22:55 -0700
+Started GET "/cats/new" for ::1 at 2021-04-23 15:23:19 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (252.0ms)
+Completed 500 Internal Server Error in 271ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `options_for_selected' for #<#<Class:0x00007fae4c248090>:0x00007fae4c70e2f0>
+Did you mean?  options_for_select:
+  app/views/cats/new.html.erb:21:in `_app_views_cats_new_html_erb___2757880898618634320_70193313364360'
+  app/controllers/cats_controller.rb:14:in `new'
+
+Started POST "/__better_errors/3064d38639b24943/variables" for ::1 at 2021-04-23 15:23:19 -0700
+Started GET "/cats/new" for ::1 at 2021-04-23 15:23:34 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:24:13 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:25:38 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:26:34 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:27:42 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:27:51 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:28:50 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:29:10 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:33:34 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (255.3ms)
+Completed 500 Internal Server Error in 263ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected >>
+..._append='" ? "selected" : ""%>> '.freeze;@output_buffer.appe...
+...                             ^~
+/Users/ying/Desktop/aA_Classwork/W6D5/ninety_nine/app/views/cats/new.html.erb:24: unknown regexp options - lct
+/Users/ying/Desktop/aA_Classwork/W6D5/ninety_nine/app/views/cats/new.html.erb:27: syntax error, unexpected '<'
+</form>
+^
+/Users/ying/Desktop/aA_Classwork/W6D5/ninety_nine/app/views/cats/new.html.erb:32: unterminated regexp meets end of file
+          end
+             ^
+/Users/ying/Desktop/aA_Classwork/W6D5/ninety_nine/app/views/cats/new.html.erb:32: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^:
+  app/views/cats/new.html.erb:22:in `'
+  app/controllers/cats_controller.rb:14:in `new'
+
+Started POST "/__better_errors/915054fdc4448ad3/variables" for ::1 at 2021-04-23 15:33:34 -0700
+Started GET "/cats/new" for ::1 at 2021-04-23 15:34:55 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (60.9ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `color' for nil:NilClass:
+  app/views/cats/new.html.erb:22:in `block in _app_views_cats_new_html_erb___2757880898618634320_70193266092740'
+  app/views/cats/new.html.erb:21:in `_app_views_cats_new_html_erb___2757880898618634320_70193266092740'
+  app/controllers/cats_controller.rb:14:in `new'
+
+Started POST "/__better_errors/4db1cb045299c88f/variables" for ::1 at 2021-04-23 15:34:55 -0700
+Started GET "/cats/new" for ::1 at 2021-04-23 15:36:44 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 43ms (Views: 23.6ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/cats/new" for ::1 at 2021-04-23 15:40:23 -0700
+Processing by CatsController#new as HTML
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
