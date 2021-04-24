@@ -1,0 +1,10 @@
+<ul>
+  <li><%= cat.name %> by <%= cat.birth_date %></li>
+
+    <% if action == :show %>
+        <li><a href=<%= cats_url %>>Cat Index</a></li>
+    <% else %>
+        <li><a href=<%= cat_url(cat) %>>Cat's Show Page</a></li>
+    <% end %>
+
+</ul>
