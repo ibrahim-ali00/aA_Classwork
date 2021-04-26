@@ -1,4 +1,6 @@
 class CatsController < ApplicationController
+  before_action :cat_owner, only: [:edit, :update]
+
   def index
     @cats = Cat.all
     render :index
@@ -40,6 +42,10 @@ class CatsController < ApplicationController
   end
 
   private
+
+  def cat_owner
+    redirect_to cat_url(@cat) unless @cat.user_id == current_user.id
+  end
 
   def cat_params
     params.require(:cat).permit(:age, :birth_date, :color, :description, :name, :sex)
