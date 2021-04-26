@@ -10,10 +10,10 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(username: params[:username], password: params[:password])
-
+    
     if @user.save
-      login(@user)
-      redirect_to user_url(@user)
+      login_user!(@user)
+      redirect_to cats_url
     else
       render :new
     end
