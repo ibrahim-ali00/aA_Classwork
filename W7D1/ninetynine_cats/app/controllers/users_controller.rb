@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
-  before_action :require_logout
+  before_action :require_logout, only: [:new, :create]
+  before_action :require_login, only: [:index, :show]
+
 
   def new
     @user = User.new
