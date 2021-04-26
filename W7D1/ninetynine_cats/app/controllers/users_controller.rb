@@ -9,11 +9,11 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(username: username, password: password)
+    @user = User.new(username: params[:username], password: params[:password])
 
     if @user.save
       login(@user)
-      redirect_to cats_url
+      redirect_to user_url(@user)
     else
       render :new
     end
