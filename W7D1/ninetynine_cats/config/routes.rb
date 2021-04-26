@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   root to: redirect('/cats')
 
   resource :session, only: [:new, :create, :destroy]
+
+  resources :user, only: [:new, :create]
 end
