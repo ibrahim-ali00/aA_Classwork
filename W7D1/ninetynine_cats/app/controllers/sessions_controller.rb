@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
     @user = User.find_by_credential(params[:username], params[:password])
 
     if @user
-      login_user!(user)
+      login_user!(@user)
       redirect_to cats_url
     else
       # flash.errors

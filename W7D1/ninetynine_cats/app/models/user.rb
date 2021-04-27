@@ -14,7 +14,7 @@ class User < ApplicationRecord
   validates :password_digest, presence: true
 
   after_initialize :ensure_session_token
-  
+
   attr_reader :password
 
   def password=(password)
@@ -23,11 +23,10 @@ class User < ApplicationRecord
   end
 
   def is_password?(password)
-    password == BCrypt::Password.new(self.password_digest) 
+    BCrypt::Password.new(self.password_digest).is_password?(password)
   end
 
   def self.find_by_credential(username, password)
-    debugger
     user = User.find_by(username: username)
     user && user.is_password?(password) ? user : nil
   end
