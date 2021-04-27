@@ -8,7 +8,8 @@ class SessionsController < ApplicationController
   end
 
   def create
-    @user = User.find_by_credential(params[:user][:username], params[:user][:password])
+    @user = User.find_by_credential(params[:username], params[:password])
+
     if @user
       login_user!(user)
       redirect_to cats_url
