@@ -1,0 +1,39 @@
+<h2>Welcome <%= @user.username %></h2>
+
+<table>
+  <body>
+    <td>
+      <tr>
+        <% @user.subs.each do |sub| %>
+
+        <th><%= link_to sub.title, subs_path(sub) %></th>
+      </tr>
+      <% end %>
+    </td>
+  </body>
+</table>
+
+<table>
+  <body>
+    <td>
+      <tr>
+        <% @user.posts.each do |post| %>
+
+        <th><%= link_to post.title, post_path(post) %></th>
+        <th>
+          <form action=<%=post_path%> method="POST">
+            <input type="hidden" name="_method" value="DELETE">
+            <input type="hidden" name="authenticity_token" value=<%=form_authenticity_token%>>
+            <input type="submit" value="Delete Post">
+          </form>
+        </th>
+      </tr>
+      <% end %>
+    </td>
+  </body>
+</table>
+
+<form action="<%= new_user_sub_path(@user) %>" method="GET">
+  <input type="submit" value="Create a sub" />
+</form>
+

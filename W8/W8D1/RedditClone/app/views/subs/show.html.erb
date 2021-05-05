@@ -1,0 +1,26 @@
+<h1><%= @sub.title %></h1>
+<%if !@sub.posts.empty?%>
+  <table>
+      <body>
+        <td>
+          <tr>
+            <% @sub.posts.each do |post| %>
+            <th>post:<%= link_to post.title, post_path(post) %></th>
+            <th>content:<%= post.content %></th>
+            <th>author:<%= link_to post.author.username, user_path(post.author) %></th>
+          </tr>
+          <% end %>
+      </td>
+    </body>
+  </table>
+<%else%>
+  <div>:(</div>
+  <br>
+<%end%>
+
+<form action=<%=new_post_path%> method="GET">
+  <input type="hidden" name="authenticity_token" value=<%=form_authenticity_token%>>
+  <input type="hidden" name="post[sub_id]" value=<%=@sub.id%>>
+  <input type="hidden" name="post[author_id]" value=<%=@moderator.id%>>
+  <input type="submit" value="create a post!">
+</form>

@@ -1,0 +1,79 @@
+#gear-icon-btn {
+  position: relative;
+}
+
+#gear-icon-btn:hover > .gear-dropdown {
+  display: block;
+  background-color: white;
+}
+
+.gear-dropdown {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid $light-gray;
+  text-transform: uppercase;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  z-index: 1;
+  color: $dark-gray;
+  right: 0px;
+  padding: 10px;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+}
+
+.gear-dropdown > li:last-child {
+      border-top: 1px solid $light-gray;
+}
+
+.gear-dropdown > li:last-child {
+    padding-top: 5px;
+}
+
+.editions {
+  padding-bottom: 5px;
+  display: block;
+  font-size: 11px;
+  li:hover {
+      background-color: $light-gray;
+      color: black;
+      transition: 0.3s;
+  }
+}
+
+.editions > * {
+  padding: 3px;
+  display: block;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+.help {
+  padding-bottom: 5px;
+  display: block;
+  font-size: 11px;
+  li:hover {
+      text-decoration: underline;
+      transition: 1s;
+  }
+  :last-child {
+      text-transform: capitalize;
+  }
+}
+
+.help > * {
+  padding: 3px;
+  display: block;
+  margin: 3px;
+  color: $light-blue;
+}
+
+.dropdown-subtitle {
+  font-size: 10px;
+  font-weight: bolder;
+  color: $dark-gray;
+  margin: 5px;
+  display: block;
+  padding-bottom: 5px;
+}

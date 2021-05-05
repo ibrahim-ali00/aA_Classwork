@@ -1,0 +1,73 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav {
+  > ul {
+    > li {
+      font-family: $sans-serif;
+      font-weight: bold;
+      font-size: 11px;
+      text-transform: uppercase;
+      margin: 5px 20px;
+      border-radius: 3px;
+      padding: 7px;
+    }
+  }
+
+  span {
+    margin: 5px;
+  }
+}
+
+.right-nav {
+  > ul {
+    > li {
+    }
+
+    > li:last-of-type {
+      padding: 4px;
+      font-size: 16px;
+    }
+  }
+
+  i {
+  }
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  cursor: pointer;
+}
+
+#gear-icon-btn > button {
+  background-color: transparent;
+  color: black;
+  :hover {
+    background-color: $light-gray;
+  }
+}
+
+.fa-cog {
+  padding: 3px;
+  margin: -3px;
+}
+
+@media all and (max-width: 1000px) {
+  .left-nav {
+    margin: 0;
+    padding: 0;
+  }
+  .right-nav {
+    display: none;
+  }
+}

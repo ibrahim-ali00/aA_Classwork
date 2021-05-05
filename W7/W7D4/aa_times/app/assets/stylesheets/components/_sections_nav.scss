@@ -1,0 +1,30 @@
+.sections {
+  border-bottom: 1px solid $light-gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    li {
+        padding-block: 2px;
+        padding-inline: 4px;
+    }
+    li:hover {
+        background-color: $light-gray;
+        transition: 0.5s;
+    }
+    li:last-child:hover {
+        text-decoration: underline;
+        color: black;
+        background-color: transparent;
+    }
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .sections {
+      display: none;
+  }
+}
