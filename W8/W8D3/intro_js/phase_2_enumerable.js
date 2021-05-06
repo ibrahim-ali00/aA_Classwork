@@ -5,7 +5,7 @@ Array.prototype.myEach = function (callback) {
   return this;
 };
 let callback = function (ele) {
-  console.log(ele)
+  console.log(ele);
   return ele + ele;
 };
 // console.log([1, 2, 3].myEach(callback));
@@ -13,39 +13,40 @@ let callback = function (ele) {
 // Array#myMap(callback) - receives a callback function, returns a new array of the results of calling the callback function on each element of the array
 // should use myEach and a closure
 
-
 Array.prototype.myMap = function (callback) {
-  const arr = []; 
-  
-  this.myEach (function(ele) {
+  const arr = [];
 
+  this.myEach(function (ele) {
     arr.push(callback(ele));
-  })
+  });
 
   return arr;
 };
 
 // console.log([1, 2, 3].myMap(callback));
 
-// accumulator will be another function 
+// accumulator will be another function
 
-Array.prototype.myReduce = function(func, value) {
+Array.prototype.myReduce = function (callback, value) {
   let arr = this;
   if (value === undefined) {
-    value = arr[0] 
-    arr = arr.slice(1)
-    
+    value = arr[0];
+    arr = arr.slice(1);
+    // arr = this[0];
+    // for (let i = 1; i < this.length; i++) {
+    //   arr = callback(arr, this[i]);
+    // }
   }
-  let result = value
+  result = value;
 
-  arr.myEach (function(ele) {
-
-    result = callback(result, ele)
-  })
+  arr.myEach(function (ele) {
+    result = callback(result, ele);
+  });
 
   return result;
-}
-console.log([1,2,3,4,5].myReduce(function (total, item) {
-  total + item
-}) )
-
+};
+// console.log(
+//   [1, 2, 3, 4, 5].myReduce(function (total, item) {
+//     return total + item;
+//   })
+// );
