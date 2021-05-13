@@ -86,14 +86,115 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./frontend/api_util.js":
+/*!******************************!*\
+  !*** ./frontend/api_util.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+const APIUtil = {
+  followUser: (id) => {
+    return $.ajax({
+      url: `/users/${id}/follow`,
+      method: "POST",
+      dataType: "JSON",
+    });
+  },
+  unfollowUser: (id) => {
+    return $.ajax({
+      url: `/users/${id}/follow`,
+      method: "DELETE",
+      dataType: "JSON",
+    });
+  },
+};
+
+module.exports = APIUtil;
+
+
+/***/ }),
+
 /***/ "./frontend/follow_toggle.js":
 /*!***********************************!*\
   !*** ./frontend/follow_toggle.js ***!
   \***********************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module parse failed: Unexpected token (27:6)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n|       if(this.followState === 'followed'){\n|         APIUtil.\n>       }else{}\n| \n|     })");
+const APIUtil = __webpack_require__(/*! ./api_util */ "./frontend/api_util.js");
+
+class FollowToggle {
+  constructor(el) {
+    this.el = $(el);
+    this.userId = this.el.data("user-id");
+    this.followState = this.el.data("initial-follow-state");
+    this.render();
+
+    this.el.on("click", (e) => {
+      this.handleClick(e);
+    });
+  }
+
+  render() {
+    switch (this.followState) {
+      case "followed":
+        this.el.text("Unfollow!");
+        break;
+      case "unfollowed":
+        this.el.text("Follow!");
+        break;
+    }
+  }
+
+  handleClick(e) {
+    // this.el.on("click", (e) => {
+    //   e.preventDefault();
+    //   if (this.followState === "followed") {
+    //     $.ajax({
+    //       type: "DELETE",
+    //       url: "/users/:id/follow",
+    //       success() {
+    //         followState = "unfollowed";
+    //         this.render();
+    //       },
+    //       error() {
+    //         console.error("an error has occured");
+    //       },
+    //     });
+    //   } else {
+    //     $.ajax({
+    //       type: "POST",
+    //       url: "/users/:id/follow",
+    //       success: function success() {
+    //         followState = "followed";
+    //         this.render();
+    //       },
+    //       error() {
+    //         console.error("an error has occured");
+    //       }
+    //     });
+    //   }
+    // });
+
+    e.preventDefault();
+
+    if (this.followState === "unfollowed") {
+      APIUtil.followUser(this.userId).then(() => {
+        this.followState = "followed";
+        this.render();
+      });
+    } else {
+      APIUtil.unfollowUser(this.userId).then(() => {
+        this.followState = "unfollowed";
+        this.render();
+      });
+    }
+  }
+}
+
+module.exports = FollowToggle;
+
 
 /***/ }),
 
