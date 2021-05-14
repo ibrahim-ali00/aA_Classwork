@@ -72,4 +72,11 @@ class User < ApplicationRecord
   def follows?(user)
     followed_user_ids.include?(user.id)
   end
+
+  def all_users
+    users = User.all
+    return users
+  end
 end
+
+module

@@ -139,52 +139,37 @@ class FollowToggle {
   render() {
     switch (this.followState) {
       case "followed":
+        this.el.prop("disabled", false);
         this.el.text("Unfollow!");
         break;
       case "unfollowed":
+        this.el.prop("disabled", false);
         this.el.text("Follow!");
+        break;
+      case "following":
+        this.el.prop("disabled", true);
+        this.el.text("Following!");
+        break;
+      case "unfollowing":
+        this.el.prop("disabled", true);
+        this.el.text("Unfollowing!");
         break;
     }
   }
 
   handleClick(e) {
-    // this.el.on("click", (e) => {
-    //   e.preventDefault();
-    //   if (this.followState === "followed") {
-    //     $.ajax({
-    //       type: "DELETE",
-    //       url: "/users/:id/follow",
-    //       success() {
-    //         followState = "unfollowed";
-    //         this.render();
-    //       },
-    //       error() {
-    //         console.error("an error has occured");
-    //       },
-    //     });
-    //   } else {
-    //     $.ajax({
-    //       type: "POST",
-    //       url: "/users/:id/follow",
-    //       success: function success() {
-    //         followState = "followed";
-    //         this.render();
-    //       },
-    //       error() {
-    //         console.error("an error has occured");
-    //       }
-    //     });
-    //   }
-    // });
-
     e.preventDefault();
 
     if (this.followState === "unfollowed") {
+      this.followState = 'following';
+      this.render();
       APIUtil.followUser(this.userId).then(() => {
         this.followState = "followed";
         this.render();
       });
     } else {
+      this.followState = 'unfollowing';
+      this.render();
       APIUtil.unfollowUser(this.userId).then(() => {
         this.followState = "unfollowed";
         this.render();

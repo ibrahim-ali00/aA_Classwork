@@ -13,6 +13,14 @@ const APIUtil = {
       dataType: "JSON",
     });
   },
+
+  searchUsers: queryVal => {
+    return $.ajax({
+      url: `/users/search`,
+      method: "GET",
+      dataType: "JSON",
+    });
+  }
 };
 
 module.exports = APIUtil;
